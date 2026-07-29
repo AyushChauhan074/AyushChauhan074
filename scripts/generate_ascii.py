@@ -33,7 +33,7 @@ def main():
     enhancer = ImageEnhance.Contrast(img)
     img = enhancer.enhance(1.2)
     
-    cols = 75
+    cols = 130
     char_width = 7.74
     char_height = 15.0
     
