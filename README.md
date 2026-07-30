@@ -27,9 +27,8 @@ AI-powered platform for industrial document intelligence - RAG-based Q&A.
 **[AI-Driven-snake-Game](https://github.com/AyushChauhan074/AI-Driven-snake-Game)** &nbsp;·&nbsp; <samp>python</samp><br>
 Reinforcement Learning Snake game with a real-time web dashboard and live AI training.
 
-**[Face-Recognition-Attendance-System](https://github.com/AyushChauhan074/Face-Recognition-Attendance-System)** &nbsp;·&nbsp; 
-<samp>python</samp><br>
-Ditch the register — let your face do the attendance.
+**[Face-Recognition-Attendance-System](https://github.com/AyushChauhan074/Face-Recognition-Attendance-System)** &nbsp;·&nbsp; <samp>python</samp><br>
+Ditch the register - let your face do the attendance.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
