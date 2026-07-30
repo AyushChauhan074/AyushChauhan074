@@ -433,6 +433,30 @@ def draw_year(s):
     return "".join(p)
 
 
+def draw_project_card(title, desc, lang):
+    """A sleek SVG card for a project with title, description, and language pill."""
+    H = 74
+    p = [head(WIDTH, H)]
+    
+    p.append('<style>.card { fill: transparent; rx: 6; } '
+             '.border { stroke: #d8dee4; stroke-width: 1; transition: stroke 0.3s; } '
+             '@media(prefers-color-scheme:dark) { .border { stroke: #30363d; } } '
+             'svg:hover .border { stroke: #8c959f; } '
+             '@media(prefers-color-scheme:dark) { svg:hover .border { stroke: #8b949e; } }</style>')
+             
+    p.append(f'<g opacity="0">{fade(0.20)}')
+    p.append(f'<rect x="{LEFT}" y="2" width="{WIDTH - LEFT * 2}" height="{H - 4}" class="card border"/>')
+    p.append(label(LEFT + 16, 28, title, 14, "e-f", extra=' font-weight="600"'))
+    safe_desc = desc.replace("&", "&amp;").replace("<", "&lt;")
+    p.append(label(LEFT + 16, 52, safe_desc, 11, "m-f"))
+    
+    rx = WIDTH - LEFT - 16
+    p.append(f'<circle cx="{rx - 48}" cy="23" r="4" class="e-f"/>')
+    p.append(label(rx - 38, 27, lang.lower(), 11, "m-f"))
+    p.append('</g></svg>')
+    return "".join(p)
+
+
 # ---------------------------------------------------------------- main
 
 def write(path, svg):
@@ -457,6 +481,14 @@ def main():
     s = summarise(fetch(login, token))
     files = {"stats.svg": draw_stats(s), "streak.svg": draw_streak(s),
              "langs.svg": draw_langs(s), "year.svg": draw_year(s)}
+             
+    files["project-industrial-iq.svg"] = draw_project_card(
+        "Industrial-IQ", "AI-powered platform for industrial document intelligence - RAG-based Q&A.", "Python")
+    files["project-snake.svg"] = draw_project_card(
+        "AI-Driven-snake-Game", "Reinforcement Learning Snake game with a real-time web dashboard and live AI training.", "Python")
+    files["project-face.svg"] = draw_project_card(
+        "Face-Recognition-Attendance-System", "Ditch the register - let your face do the attendance.", "Python")
+
     for word in ("about", "stack", "projects", "stats", "about this page"):
         files[f"hd-{word.replace(' ', '-')}.svg"] = draw_heading(word)
 

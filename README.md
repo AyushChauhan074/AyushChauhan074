@@ -21,14 +21,17 @@
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[Industrial-IQ](https://github.com/AyushChauhan074/Industrial-IQ)** &nbsp;·&nbsp; <samp>python</samp><br>
-AI-powered platform for industrial document intelligence - RAG-based Q&A.
+<a href="https://github.com/AyushChauhan074/Industrial-IQ">
+  <img src="./project-industrial-iq.svg" width="620" alt="Industrial IQ"/>
+</a>
 
-**[AI-Driven-snake-Game](https://github.com/AyushChauhan074/AI-Driven-snake-Game)** &nbsp;·&nbsp; <samp>python</samp><br>
-Reinforcement Learning Snake game with a real-time web dashboard and live AI training.
+<a href="https://github.com/AyushChauhan074/AI-Driven-snake-Game">
+  <img src="./project-snake.svg" width="620" alt="AI Snake Game"/>
+</a>
 
-**[Face-Recognition-Attendance-System](https://github.com/AyushChauhan074/Face-Recognition-Attendance-System)** &nbsp;·&nbsp; <samp>python</samp><br>
-Ditch the register - let your face do the attendance.
+<a href="https://github.com/AyushChauhan074/Face-Recognition-Attendance-System">
+  <img src="./project-face.svg" width="620" alt="Face Recognition Attendance System"/>
+</a>
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
