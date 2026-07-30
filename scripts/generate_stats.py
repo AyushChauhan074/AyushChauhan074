@@ -390,7 +390,7 @@ def draw_year(s):
                      f"{sum(len(w) for w in weeks)} days had a contribution", 11)
              + '</g>')
 
-    lx = WIDTH - 100
+    lx = WIDTH - 120
     ly = 32
     p.append(f'<g opacity="0">{fade(1.30)}'
              + label(lx - 20, ly + 2, "less", 9, "m-f", "end"))
