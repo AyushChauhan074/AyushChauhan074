@@ -21,14 +21,15 @@
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[Redit-scraper](https://github.com/AyushChauhan074/Redit-scraper)** &nbsp;·&nbsp; <samp>python</samp><br>
-Scrapes Reddit data efficiently.
+**[Industrial-IQ](https://github.com/AyushChauhan074/Industrial-IQ)** &nbsp;·&nbsp; <samp>python</samp><br>
+AI-powered platform for industrial document intelligence - RAG-based Q&A.
 
-**[Facebook-marketplace-product-finder](https://github.com/AyushChauhan074/Facebook-marketplace-product-finder)** &nbsp;·&nbsp; <samp>python</samp><br>
-Finds and filters marketplace products automatically.
+**[AI-Driven-snake-Game](https://github.com/AyushChauhan074/AI-Driven-snake-Game)** &nbsp;·&nbsp; <samp>python</samp><br>
+Reinforcement Learning Snake game with a real-time web dashboard and live AI training.
 
-**[trade-bridge-mt5](https://github.com/AyushChauhan074/trade-bridge-mt5)** &nbsp;·&nbsp; <samp>python</samp><br>
-MetaTrader 5 bridge integration.
+**[Face-Recognition-Attendance-System](https://github.com/AyushChauhan074/Face-Recognition-Attendance-System)** &nbsp;·&nbsp; 
+<samp>python</samp><br>
+Ditch the register — let your face do the attendance.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
