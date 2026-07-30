@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./ascii.svg" width="620" alt="Ayush Chauhan"/>
+<img src="./ascii.svg?v=2" width="620" alt="Ayush Chauhan"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="./stats.svg?v=2" width="620" alt="Contributions in the last year"/>
 
 [linkedin](https://www.linkedin.com/in/ayush-chauhan-11a9243b9) &nbsp;·&nbsp;
 [email](mailto:ayushchauhan54989@gmail.com) &nbsp;·&nbsp;
@@ -10,38 +10,38 @@
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+<img src="./hd-about.svg?v=2" width="620" alt="about"/>
 
 > Computer Science student passionate about building clean, efficient systems,<br>
 > web apps, and exploring networking and automation.
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+<img src="./hd-stack.svg?v=2" width="620" alt="stack"/>
 
 <samp>python &nbsp; javascript &nbsp; typescript &nbsp; c++ &nbsp; git &nbsp; linux &nbsp; powershell &nbsp; html/css</samp>
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+<img src="./hd-projects.svg?v=2" width="620" alt="projects"/>
 
 <a href="https://github.com/AyushChauhan074/Industrial-IQ">
-  <img src="./project-industrial-iq.svg" width="620" alt="Industrial IQ"/>
+  <img src="./project-industrial-iq.svg?v=2" width="620" alt="Industrial IQ"/>
 </a>
 
 <a href="https://github.com/AyushChauhan074/AI-Driven-snake-Game">
-  <img src="./project-snake.svg" width="620" alt="AI Snake Game"/>
+  <img src="./project-snake.svg?v=2" width="620" alt="AI Snake Game"/>
 </a>
 
 <a href="https://github.com/AyushChauhan074/Face-Recognition-Attendance-System">
-  <img src="./project-face.svg" width="620" alt="Face Recognition Attendance System"/>
+  <img src="./project-face.svg?v=2" width="620" alt="Face Recognition Attendance System"/>
 </a>
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
+<img src="./hd-stats.svg?v=2" width="620" alt="stats"/>
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<img src="./streak.svg?v=2" width="620" alt="Current and longest streak"/>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="./langs.svg?v=2" width="620" alt="Top languages by bytes and by repo"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="./year.svg?v=2" width="620" alt="The last year, one character per day"/>
 
 </div>
 
