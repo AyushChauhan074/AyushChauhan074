@@ -435,7 +435,10 @@ def draw_year(s):
 
 def draw_project_card(title, desc, lang):
     """A sleek SVG card for a project with title, description, and language pill."""
-    H = 74
+    import textwrap
+    lines = textwrap.wrap(desc, width=65)
+    H = 74 + max(0, len(lines) - 1) * 16
+    
     p = [head(WIDTH, H)]
     
     p.append('<style>.card { fill: transparent; rx: 6; } '
@@ -447,12 +450,14 @@ def draw_project_card(title, desc, lang):
     p.append(f'<g opacity="0">{fade(0.20)}')
     p.append(f'<rect x="{LEFT}" y="2" width="{WIDTH - LEFT * 2}" height="{H - 4}" class="card border"/>')
     p.append(label(LEFT + 16, 28, title, 14, "e-f", extra=' font-weight="600"'))
-    safe_desc = desc.replace("&", "&amp;").replace("<", "&lt;")
-    p.append(label(LEFT + 16, 52, safe_desc, 11, "m-f"))
+    
+    for i, line in enumerate(lines):
+        safe_desc = line.replace("&", "&amp;").replace("<", "&lt;")
+        p.append(label(LEFT + 16, 52 + i * 16, safe_desc, 11, "m-f"))
     
     rx = WIDTH - LEFT - 16
-    p.append(f'<circle cx="{rx - 48}" cy="23" r="4" class="e-f"/>')
-    p.append(label(rx - 38, 27, lang.lower(), 11, "m-f"))
+    p.append(f'<circle cx="{rx - 48}" cy="{H/2}" r="4" class="e-f"/>')
+    p.append(label(rx - 38, H/2 + 4, lang.lower(), 11, "m-f"))
     p.append('</g></svg>')
     return "".join(p)
 
